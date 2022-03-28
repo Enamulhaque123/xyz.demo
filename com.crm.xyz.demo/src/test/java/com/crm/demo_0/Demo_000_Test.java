@@ -26,7 +26,7 @@ public class Demo_000_Test {
 		
 		System.out.println(System.getProperty("browser"));
 		System.out.println(System.getProperty("url"));
-		System.out.println(System.getProperty("userename"));
+		System.out.println(System.getProperty("username"));
 		System.out.println(System.getProperty("password"));
 
 	}
