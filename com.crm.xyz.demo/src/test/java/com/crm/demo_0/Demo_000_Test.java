@@ -2,6 +2,8 @@ package com.crm.demo_0;
 
 import org.testng.annotations.Test;
 
+import com.beust.jcommander.Parameter;
+
 public class Demo_000_Test {
 	@Test
 	public void m1() {
@@ -18,5 +20,14 @@ public class Demo_000_Test {
 	@Test
 	public void m4() {
 		System.out.println("m4 run");
+	}
+	@Test
+	public void Parameter1() {
+		
+		System.out.println(System.getProperty("browser"));
+		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("userename"));
+		System.out.println(System.getProperty("password"));
+
 	}
 }
